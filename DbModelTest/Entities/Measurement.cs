@@ -9,9 +9,6 @@
 		public virtual TypeCode TypeCode { get; set; }
 
 		[Required]
-		public virtual TypeMethod TypeMethod { get; set; }
-
-		[Required]
 		public virtual TypeUnit TypeUnit { get; set; }
 
 		public double? Value { get; set; }
